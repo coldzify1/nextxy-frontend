@@ -12,6 +12,12 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontSize: {
+        'xl-half': '1.375rem'
+      },
+      screens: {
+        '3xl': '1920px', // Custom breakpoint
+      },
     },
   },
   plugins: [],
