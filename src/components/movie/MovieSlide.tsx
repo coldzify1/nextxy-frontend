@@ -27,8 +27,8 @@ const MovieSlide = (props: MovieSlideProps) => {
   const {items} = props;
   return (
     <div>
-      <div className="ml-[30] lg:ml-[40] xl:ml-[60] 2xl:ml-[90]">
-        <h2 className="slide-header font-bold mb-[20] text-[24px] 3xl:text-[36px]">{props.title}</h2>
+      <div className="ml-[30px] lg:ml-[40px] xl:ml-[60px] 2xl:ml-[90px]">
+        <h2 className="slide-header font-bold mb-[20px] text-[24px] 3xl:text-[36px]">{props.title}</h2>
       </div>
      
       <Swiper

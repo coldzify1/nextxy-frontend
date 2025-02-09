@@ -12,9 +12,9 @@ interface HeaderMobileProps {
 const HeaderMobile = (props: HeaderMobileProps) => {
   const { onTop = true } = props;
   return (
-    <div className="lg:hidden px-[30] py-[24] md:px-[39]">
+    <div className="lg:hidden px-[30px] py-[24px] md:px-[39px]">
       <div className="flex justify-between items-center">
-        <div className="relative w-[30] h-[53] md:w-[44] md:h-[79]">
+        <div className="relative w-[30px] h-[53px] md:w-[44px] md:h-[79px]">
           <Image
             src={nextFlixN}
             fill
@@ -29,30 +29,30 @@ const HeaderMobile = (props: HeaderMobileProps) => {
             height={44}
             alt="Chromecast Icon"
           />
-          <div className="avatar-box ml-[24] md:ml-[50] w-[58] h-[59]" />
+          <div className="avatar-box ml-[24px] md:ml-[50px] w-[58px] h-[59px]" />
         </div>
       </div>
-      <div className={classNames("mt-[44] flex justify-center items-center text-[18px] sm:text-[30px] md:text-[38px]", { "hidden": !onTop })}>
+      <div className={classNames("mt-[44px] flex justify-center items-center text-[18px] sm:text-[30px] md:text-[38px]", { "hidden": !onTop })}>
         <Link href="/">
           <div className="desktop-menu-item">
             TV Shows
           </div>
         </Link>
         <Link href="/">
-          <div className="desktop-menu-item ml-[24] md:ml-[106]">
+          <div className="desktop-menu-item ml-[24px] md:ml-[106px]">
             Movies
           </div>
         </Link>
         <Link href="/">
-          <div className="desktop-menu-item ml-[24] md:ml-[106]">
+          <div className="desktop-menu-item ml-[24px] md:ml-[106px]">
             Categories
-            <div className="ml-[9] md:hidden">
+            <div className="ml-[9px] md:hidden">
               <Image
                 src={arrowIcon}
                 alt="Arrow Icon"
               />
             </div>
-            <div className="ml-[9] hidden md:block">
+            <div className="ml-[9px] hidden md:block">
               <Image
                 src={arrowIcon}
                 width={35}
