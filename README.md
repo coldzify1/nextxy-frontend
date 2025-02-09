@@ -5,6 +5,12 @@
 ```bash
 $ yarn install
 ```
+
+## Environment setup
+
+Copy .env.example to .env
+
+
 ## Getting Started
 
 First, run the development server:
