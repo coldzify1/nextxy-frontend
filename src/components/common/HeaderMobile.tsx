@@ -32,19 +32,19 @@ const HeaderMobile = (props: HeaderMobileProps) => {
           <div className="avatar-box ml-[24px] md:ml-[50px] w-[58px] h-[59px]" />
         </div>
       </div>
-      <div className={classNames("mt-[44px] flex justify-center items-center text-[18px] sm:text-[30px] md:text-[38px]", { "hidden": !onTop })}>
+      <div className={classNames("mt-[44px] flex justify-center items-center text-[18px] sm:text-[30px] lg:text-[38px]", { "hidden": !onTop })}>
         <Link href="/">
           <div className="desktop-menu-item">
             TV Shows
           </div>
         </Link>
         <Link href="/">
-          <div className="desktop-menu-item ml-[24px] md:ml-[106px]">
+          <div className="desktop-menu-item ml-[24px] sm:ml-[48px] md:ml-[106px]">
             Movies
           </div>
         </Link>
         <Link href="/">
-          <div className="desktop-menu-item ml-[24px] md:ml-[106px]">
+          <div className="desktop-menu-item ml-[24px] sm:ml-[48px] md:ml-[106px]">
             Categories
             <div className="ml-[9px] md:hidden">
               <Image
